@@ -10,7 +10,6 @@
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "^3.3.0",
-    "sqlite3": "^4.1.1"
   },
   "scripts": {
     "dev:front": "react-scripts start",
