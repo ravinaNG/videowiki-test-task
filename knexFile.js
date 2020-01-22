@@ -1,11 +1,13 @@
-const knex = require('knex')({
-    client: 'mysql',
+const knex = require('knex');
+
+const connection = ({
+    client: "mysql",
     connection: {
-        host: 'localhost',
-        user: 'root',
-        password: 'Ravina@123',
-        database: 'videowiki'
+        host: "localhost",
+        user: "root",
+        password: "Ravina@123",
+        database: "videowiki"
     }
 });
 
-module.exports = knex;
+module.exports = knex(connection);
